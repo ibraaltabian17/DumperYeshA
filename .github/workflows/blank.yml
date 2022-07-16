@@ -52,7 +52,7 @@ jobs:
           git add *
           git commit -m "Automatically Update EPG"
           git branch -M dump-epg
-          git remote add origin https://github.com/ibraaltabian17/DumperYeshA.git
+          git remote add origin  https://ibraaltabian17:${{ secrets.PA_TOKEN }}@github.com/ibraaltabian17/DumperYeshA.git
           git push -u origin dump-epg -f
 
           
