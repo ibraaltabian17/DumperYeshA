@@ -4,11 +4,9 @@ name: EPG
 
 # Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+  schedule:
+  # Runs "at minute 55 past every hour" (see https://crontab.guru)
+  - cron: '0 0 * * *'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -36,6 +34,7 @@ jobs:
       - name: Start grabbing
         run: |
           export CONFIG_URL=https://raw.githubusercontent.com/akmalharith/epg-grabber/main/epg_grabber/sites/channels_config/visionplus_channels.txt
+          export EPG_DAYS=7
           cd ~/epg-grabber/epg_grabber
           python3 -u app.py
           cd ~/epg-grabber/epg_grabber
