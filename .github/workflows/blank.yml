@@ -38,3 +38,22 @@ jobs:
           export CONFIG_URL=https://raw.githubusercontent.com/akmalharith/epg-grabber/main/epg_grabber/sites/channels_config/visionplus_channels.txt
           cd ~/epg-grabber/epg_grabber
           python3 -u app.py
+          cd ~/epg-grabber/epg_grabber
+          mkdir ~/Dump-epg
+          
+      - name: Push xml
+        run: |
+          cd ~/Dump-epg
+          cp ~/epg-grabber/epg_grabber/tv.xml .
+          git config --global user.name "AutoBot"
+          git config --global user.email "TestBot@example.org"
+          git config --global user.password "${{ secrets.PA_TOKEN }}"
+          git init
+          git add *
+          git commit -m "Automatically Update EPG"
+          git branch -M dump-epg
+          git remote add origin git@github.com:ibraaltabian17/temp.git
+          git push -u origin main
+
+          
+          
