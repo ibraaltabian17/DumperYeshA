@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: EPG
+name: EPG & Playlist.json
 
 # Controls when the workflow will run
 on:
@@ -30,26 +30,35 @@ jobs:
           git clone https://github.com/akmalharith/epg-grabber.git ~/epg-grabber
           cd ~/epg-grabber
           pip3 install -r requirements.txt
+          pip3 install m3u-parser
+          mkdir ~/Dump-epg
           
-      - name: Start grabbing
+      - name: Start grabbing EPG
         run: |
           export CONFIG_URL=https://raw.githubusercontent.com/akmalharith/epg-grabber/main/epg_grabber/sites/channels_config/visionplus_channels.txt
           export EPG_DAYS=7
           cd ~/epg-grabber/epg_grabber
           python3 -u app.py
           cd ~/epg-grabber/epg_grabber
-          mkdir ~/Dump-epg
+      
+      - name: Start Converting M3U8 to Json
+        run: |
+          mkdir ~/m3uparser
+          cd ~/m3uparser
+          wget https://raw.githubusercontent.com/ibraaltabian17/DumperYeshA/main/m3utojson.py
+          python3 m3utojson.py
           
       - name: Push xml
         run: |
           cd ~/Dump-epg
           cp ~/epg-grabber/epg_grabber/tv.xml .
+          cp ~/m3uparser/AltosJSON.json .
           git config --global user.name "AutoBot"
           git config --global user.email "TestBot@example.org"
           git config --global user.password "${{ secrets.PA_TOKEN }}"
           git init
           git add *
-          git commit -m "Automatically Update EPG"
+          git commit -m "Automatically Update EPG && Playlist"
           git branch -M dump-epg
           git remote add origin  https://ibraaltabian17:${{ secrets.PA_TOKEN }}@github.com/ibraaltabian17/DumperYeshA.git
           git push -u origin dump-epg -f
