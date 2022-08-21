@@ -52,7 +52,7 @@ jobs:
         run: |
           cd ~/Dump-epg
           cp ~/epg-grabber/epg_grabber/tv.xml .
-          cp ~/m3uparser/AltosJSON.json .
+          cp ~/m3uparser/altosjson.json .
           git config --global user.name "AutoBot"
           git config --global user.email "TestBot@example.org"
           git config --global user.password "${{ secrets.PA_TOKEN }}"
