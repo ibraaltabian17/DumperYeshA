@@ -26,6 +26,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run Build Envsetup
         run: |
+          sudo apt-get update && sudo apt upgrade -y
           sudo apt-get -y install python3-pip git
           git clone https://github.com/akmalharith/epg-grabber.git ~/epg-grabber
           cd ~/epg-grabber
@@ -36,7 +37,7 @@ jobs:
       - name: Start grabbing EPG
         run: |
           export CONFIG_URL=https://raw.githubusercontent.com/akmalharith/epg-grabber/main/epg_grabber/sites/channels_config/visionplus_channels.txt
-          exporr CONFIG_NAME=VisionPles
+          export CONFIG_NAME=VisionPles
           export EPG_DAYS=7
           cd ~/epg-grabber/epg_grabber
           python3 -u app.py
