@@ -36,6 +36,7 @@ jobs:
       - name: Start grabbing EPG
         run: |
           export CONFIG_URL=https://raw.githubusercontent.com/akmalharith/epg-grabber/main/epg_grabber/sites/channels_config/visionplus_channels.txt
+          exporr CONFIG_NAME=VisionPles
           export EPG_DAYS=7
           cd ~/epg-grabber/epg_grabber
           python3 -u app.py
