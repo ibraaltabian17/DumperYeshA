@@ -16,8 +16,6 @@ dens_tv;tvNMoviesHD.Id
 dens_tv;CelestialMoviesHD.Id
 dens_tv;CCM(CelestialClassicMV).Id
 dens_tv;MyCinemaAsia.Id
-dens_tv;ZeeBioskop.Id
-dens_tv;Thrill.Id
 dens_tv;CinemaWorldHD.Id
 dens_tv;MyCinemaHD.Id
 dens_tv;MyCinemaEuropeHD.Id
