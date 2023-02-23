@@ -27,7 +27,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run Build Envsetup
         run: |
-          sudo apt-get update && sudo apt upgrade -y
+          sudo apt-get update
           sudo apt-get -y install python3-pip git
           git clone https://github.com/akmalharith/epg-grabber.git ~/epg-grabber -b v0.3.0
           cd ~/epg-grabber
