@@ -40,7 +40,7 @@ jobs:
         run: |
           export CONFIG_URL=https://raw.githubusercontent.com/ibraaltabian17/DumperYeshA/main/altostv/list.txt
           export CONFIG_NAME=AltosTipi
-          export EPG_DAYS=4
+          export EPG_DAYS=7
           cd ~/epg-grabber/epg_grabber
           python3 -u app.py
           cd ~/epg-grabber/epg_grabber
