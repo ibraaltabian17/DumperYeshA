@@ -28,18 +28,19 @@ jobs:
       - name: Run Build Envsetup
         run: |
           sudo apt-get update
-          sudo apt-get -y install python3-pip git
+          sudo apt-get -y install python3-pip git neofetch
           git clone https://github.com/akmalharith/epg-grabber.git ~/epg-grabber -b v0.3.0
           cd ~/epg-grabber
           pip3 install -r requirements.txt
           pip3 install m3u-parser
+          neofetch
           mkdir ~/Dump-epg
           
       - name: Start grabbing EPG
         run: |
           export CONFIG_URL=https://raw.githubusercontent.com/ibraaltabian17/DumperYeshA/main/altostv/list.txt
           export CONFIG_NAME=AltosTipi
-          export EPG_DAYS=7
+          export EPG_DAYS=4
           cd ~/epg-grabber/epg_grabber
           python3 -u app.py
           cd ~/epg-grabber/epg_grabber
