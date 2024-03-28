@@ -1,0 +1,2466 @@
+[
+    {
+        "name": "MNC TV",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/MNCTV-HD/sa_dash_vmx/MNCTV-HD.mpd",
+        "category": "LOKAL",
+        "tvg": {
+            "id": "MNCTV.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "TRANS TV",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/TransTV-2/sa_dash_vmx/TransTV-2.mpd",
+        "category": "LOKAL",
+        "tvg": {
+            "id": "TransTV.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "GTV",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/GTV-HD/sa_dash_vmx/GTV-HD.mpd",
+        "category": "LOKAL",
+        "tvg": {
+            "id": "GTV.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "ANTV",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/ANTV/sa_dash_vmx/ANTV.mpd",
+        "category": "LOKAL",
+        "tvg": {
+            "id": "ANTV.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "RTV",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/RTV/sa_dash_vmx/RTV.mpd",
+        "category": "LOKAL",
+        "tvg": {
+            "id": "RTV.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "TRANS 7",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/Trans7-2/sa_dash_vmx/Trans7-2.mpd",
+        "category": "LOKAL",
+        "tvg": {
+            "id": "Trans7.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "METRO TV",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/Metro-TV2/sa_dash_vmx/Metro-TV2.mpd",
+        "category": "LOKAL",
+        "tvg": {
+            "id": "MetroTV.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "RCTI",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd",
+        "category": "LOKAL",
+        "tvg": {
+            "id": "RCTI.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "JTV",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/JTV/sa_hls/JTV.m3u8",
+        "category": "LOKAL",
+        "tvg": {
+            "id": "JTV.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "NET.",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/NetTV-HD/sa_dash_vmx/NetTV-HD.mpd",
+        "category": "LOKAL",
+        "tvg": {
+            "id": "Net..Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "DAAI TV",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/DAAITV/sa_dash_vmx/DAAITV.mpd",
+        "category": "LOKAL",
+        "tvg": {
+            "id": "DaaiTV.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "BALI TV",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/BaliTV_Timeshift/sa_dash_timeshift/BaliTV_Timeshift.mpd",
+        "category": "LOKAL",
+        "tvg": {
+            "id": "BaliTV.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "JAKTV",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/JakTV/sa_dash_vmx/JakTV.mpd",
+        "category": "LOKAL",
+        "tvg": {
+            "id": "JakTV.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "INEWS",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/iNewsTV-HDD/sa_dash_vmx/iNewsTV-HDD.mpd",
+        "category": "LOKAL",
+        "tvg": {
+            "id": "iNews.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "BTV",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/BeritaSatu/sa_dash_vmx/BeritaSatu.mpd",
+        "category": "LOKAL",
+        "tvg": {
+            "id": "BeritaSatu.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "BANDUNG TV",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/BandungTV/sa_dash_vmx/BandungTV.mpd",
+        "category": "LOKAL",
+        "tvg": {
+            "id": "BandungTV.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "TVRI",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/PemersatuBangsa/sa_dash_vmx/PemersatuBangsa.mpd",
+        "category": "LOKAL",
+        "tvg": {
+            "id": "TVRI.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "KOMPAS TV",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/KompasTV/sa_dash_vmx/KompasTV.mpd",
+        "category": "LOKAL",
+        "tvg": {
+            "id": "KompasTV.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "TVONE",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/TVOne/sa_dash_vmx/TVOne.mpd",
+        "category": "LOKAL",
+        "tvg": {
+            "id": "TVOne.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "VISION PRIME HD",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/VisionPrime/sa_dash_vmx/VisionPrime.mpd",
+        "category": "ENTERTAINMENT",
+        "tvg": {
+            "id": "VisionPrime.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "OK TV",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/OKTV/sa_dash_vmx/OKTV.mpd",
+        "category": "ENTERTAINMENT",
+        "tvg": {
+            "id": "OKTV.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "JTV",
+        "logo": "",
+        "url": "https://cdn02.mola.tv/Content/HLS/Live/channel(f2cd666d-f350-1140-7ce5-3d7f39f84727)/08.m3u8",
+        "category": "LOKAL",
+        "tvg": {
+            "id": "JTV.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "ENTERTAINMENT",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/MNCEntertainment/sa_dash_vmx/MNCEntertainment.mpd",
+        "category": "ENTERTAINMENT",
+        "tvg": {
+            "id": "Entertainment.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "TVN",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/tvN/sa_dash_vmx/tvN.mpd",
+        "category": "ENTERTAINMENT",
+        "tvg": {
+            "id": "tvN.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "NHK World Premium",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/NHKWorldPremium/sa_dash_vmx/NHKWorldPremium.mpd",
+        "category": "ENTERTAINMENT",
+        "tvg": {
+            "id": "NHKWorldPremium.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "NHK World TV",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/NHKWorldTV/sa_dash_vmx/NHKWorldTV.mpd",
+        "category": "ENTERTAINMENT",
+        "tvg": {
+            "id": "NHKWorldJapan.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "ANIMAX",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/Animax/sa_dash_vmx/Animax.mpd",
+        "category": "ENTERTAINMENT",
+        "tvg": {
+            "id": "Animax.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "SONY ONE",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/SetOne/sa_dash_vmx/SetOne.mpd",
+        "category": "ENTERTAINMENT",
+        "tvg": {
+            "id": "One.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "LIFETIME",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/Lifetime/sa_dash_vmx/Lifetime.mpd",
+        "category": "ENTERTAINMENT",
+        "tvg": {
+            "id": "Lifetime.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "AXN",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/AXN/sa_dash_vmx/AXN.mpd",
+        "category": "ENTERTAINMENT",
+        "tvg": {
+            "id": "AXN.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "WARNERTV",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/WarnerTV/sa_dash_vmx/WarnerTV.mpd",
+        "category": "ENTERTAINMENT",
+        "tvg": {
+            "id": "WarnerTV.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "KIX",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/KIX/sa_dash_vmx/KIX.mpd",
+        "category": "ENTERTAINMENT",
+        "tvg": {
+            "id": "KIX.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "XINGKONG TV",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/XingKongTV/sa_dash_vmx/XingKongTV.mpd",
+        "category": "ENTERTAINMENT",
+        "tvg": {
+            "id": "XingKongTV.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "NICKELODEON",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/Nickelodeon/sa_dash_vmx/Nickelodeon.mpd",
+        "category": "KIDS",
+        "tvg": {
+            "id": "Nick.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "ANHUI TV",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/AnhuiTV/sa_dash_vmx/AnhuiTV.mpd",
+        "category": "ENTERTAINMENT",
+        "tvg": {
+            "id": "AnhuiTV.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "JIANGSU TV",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/JiangsuTV/sa_dash_vmx/JiangsuTV.mpd",
+        "category": "ENTERTAINMENT",
+        "tvg": {
+            "id": "JiangsuTV.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "HITS",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/HITS/sa_dash_vmx/HITS.mpd",
+        "category": "ENTERTAINMENT",
+        "tvg": {
+            "id": "HITS.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "MUSIC TV",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/MusicChannel/sa_dash_vmx/MusicChannel.mpd",
+        "category": "MUSIC",
+        "tvg": {
+            "id": "MusicTV.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "WAKU WAKU JAPAN",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/WakuWakuJapan/sa_dash_vmx/WakuWakuJapan.mpd",
+        "category": "ENTERTAINMENT",
+        "tvg": {
+            "id": "",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "SHANGHAI DRAGON TV",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/ShanghaiDragonTV/sa_dash_vmx/ShanghaiDragonTV.mpd",
+        "category": "ENTERTAINMENT",
+        "tvg": {
+            "id": "ShanghaiDragonTV.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "TV5MONDE",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/TV5/sa_dash_vmx/TV5.mpd",
+        "category": "ENTERTAINMENT",
+        "tvg": {
+            "id": "TV5Monde.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "BOOMERANG",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/Boomerang/sa_dash_vmx/Boomerang.mpd",
+        "category": "KIDS",
+        "tvg": {
+            "id": "Boomerang.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "TVN MOVIES",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/tvNMovies/sa_dash_vmx/tvNMovies.mpd",
+        "category": "MOVIES",
+        "tvg": {
+            "id": "tvNMovies.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "HUNAN TV",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/HunanTV/sa_dash_vmx/HunanTV.mpd",
+        "category": "ENTERTAINMENT",
+        "tvg": {
+            "id": "HunanTV.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "NICK JUNIOR",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/NickJr-HDD/sa_dash_vmx/NickJr-HDD.mpd",
+        "category": "KIDS",
+        "tvg": {
+            "id": "NickJr.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "CBEEBIES",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/Cbeebies/sa_dash_vmx/Cbeebies.mpd",
+        "category": "KIDS",
+        "tvg": {
+            "id": "BabyTV.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "CARTOON NETWORK",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/CartoonNetwork/sa_dash_vmx/CartoonNetwork.mpd",
+        "category": "KIDS",
+        "tvg": {
+            "id": "CartoonNetwork.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "KIDSTV",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/KidsChannel/sa_dash_vmx/KidsChannel.mpd",
+        "category": "KIDS",
+        "tvg": {
+            "id": "KidsTV.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "BABY TV",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/BabyTV-NewHD/sa_dash_vmx/BabyTV-NewHD.mpd",
+        "category": "KIDS",
+        "tvg": {
+            "id": "BabyTV.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "NAT GEO",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/NatGeoChannel/sa_dash_vmx/NatGeoChannel.mpd",
+        "category": "KNOWLEDGE",
+        "tvg": {
+            "id": "NationalGeographic.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "NAT GEO WILD",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/NatGeoWild/sa_dash_vmx/NatGeoWild.mpd",
+        "category": "KNOWLEDGE",
+        "tvg": {
+            "id": "NatGeoWild.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "ANIMAL PLANET",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/AnimalPlanet/sa_dash_vmx/AnimalPlanet.mpd",
+        "category": "KNOWLEDGE",
+        "tvg": {
+            "id": "AnimalPlanet.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "BESMART",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/BeSmart/sa_dash_vmx/BeSmart.mpd",
+        "category": "KNOWLEDGE",
+        "tvg": {
+            "id": "BeSmart.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "HISTORY",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/History/sa_dash_vmx/History.mpd",
+        "category": "KNOWLEDGE",
+        "tvg": {
+            "id": "History.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "BBC EARTH",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/BBCEarth-HD/sa_dash_vmx/BBCEarth-HD.mpd",
+        "category": "KNOWLEDGE",
+        "tvg": {
+            "id": "BBCEarth.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "HBO",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/hbo-2/sa_dash_vmx/hbo-2.mpd",
+        "category": "MOVIES",
+        "tvg": {
+            "id": "HBO.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "HBO HITS",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/HBOHits/sa_dash_vmx/HBOHits.mpd",
+        "category": "MOVIES",
+        "tvg": {
+            "id": "HBOHits.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "HBO FAMILY",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/HBOFamily2/sa_dash_vmx/HBOFamily2.mpd",
+        "category": "MOVIES",
+        "tvg": {
+            "id": "HBOFamily.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "HBO SIGNATURE",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/HBOSignature2/sa_dash_vmx/HBOSignature2.mpd",
+        "category": "MOVIES",
+        "tvg": {
+            "id": "HBOSignature.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "THRILL",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/Thrill/sa_dash_vmx/Thrill.mpd",
+        "category": "MOVIES",
+        "tvg": {
+            "id": "Thrill.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "CCM",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/CelestialClassic/sa_dash_vmx/CelestialClassic.mpd",
+        "category": "MOVIES",
+        "tvg": {
+            "id": "CelestialClassicMovie.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "CELESTIAL MOVIES",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/CelestialMovie/sa_dash_vmx/CelestialMovie.mpd",
+        "category": "MOVIES",
+        "tvg": {
+            "id": "CelestialMovies.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "HITS MOVIES",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/HitsMovies/sa_dash_vmx/HitsMovies.mpd",
+        "category": "MOVIES",
+        "tvg": {
+            "id": "HitsMovies.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "DW",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/DW/sa_dash_vmx/DW.mpd",
+        "category": "NEWS",
+        "tvg": {
+            "id": "DW.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "SEA TODAY",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/SEA-Channel/sa_dash_vmx/SEA-Channel.mpd",
+        "category": "NEWS",
+        "tvg": {
+            "id": "SEAToday.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "RT ENGLISH",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/RTEnglish/sa_dash_vmx/RTEnglish.mpd",
+        "category": "NEWS",
+        "tvg": {
+            "id": "RTEnglish.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "CGTN",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/CGTN/sa_dash_vmx/CGTN.mpd",
+        "category": "NEWS",
+        "tvg": {
+            "id": "CGTN.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "IDX",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/IDX/sa_dash_vmx/IDX.mpd",
+        "category": "NEWS",
+        "tvg": {
+            "id": null,
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "TRT WORLD",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/TRTWorld/sa_dash_vmx/TRTWorld.mpd",
+        "category": "NEWS",
+        "tvg": {
+            "id": "TRTWorld.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "ZEE BIOSKOP",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/ZeeBIOSKOP/sa_dash_vmx/ZeeBIOSKOP.mpd",
+        "category": "MOVIES",
+        "tvg": {
+            "id": "ZeeBioskop.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "AL JAZEERA ENGLISH",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/AlJazeeraInternational/sa_dash_vmx/AlJazeeraInternational.mpd",
+        "category": "NEWS",
+        "tvg": {
+            "id": "AlJazeeraEnglish.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "FRANCE 24",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/France24/sa_dash_vmx/France24.mpd",
+        "category": "NEWS",
+        "tvg": {
+            "id": "France24.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "SOCCER CHANNEL",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/soccerchannel-HD/sa_dash_vmx/soccerchannel-HD.mpd",
+        "category": "SPORTS",
+        "tvg": {
+            "id": "SoccerChannel.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "AL QURAN AL KAREEM",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/AlQuranAlKareem/sa_dash_vmx/AlQuranAlKareem.mpd",
+        "category": "RELIGION",
+        "tvg": {
+            "id": "AlQuranAlKareem.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "SPOTV 2",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/SPOTV2-HD/sa_dash_vmx/SPOTV2-HD.mpd",
+        "category": "SPORTS",
+        "tvg": {
+            "id": "SPOTV2.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "SPOTV 1",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/SPOTV-HD/sa_dash_vmx/SPOTV-HD.mpd",
+        "category": "SPORTS",
+        "tvg": {
+            "id": "SPOTV.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "MNC SPORTS 2",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/MNCSports2-HD/sa_dash_vmx/MNCSports2-HD.mpd",
+        "category": "SPORTS",
+        "tvg": {
+            "id": "MNCSports2.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "SPACETOON",
+        "logo": "",
+        "url": "https://bravo.kugo.id/spacetoon/udp.stream_360p/playlist.m3u8",
+        "category": "KIDS",
+        "tvg": {
+            "id": "",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "BEIN SPORTS 1",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/BeIN1/sa_dash_vmx/BeIN1.mpd",
+        "category": "SPORTS",
+        "tvg": {
+            "id": "beINSports1.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "MUSLIM TV",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/MNCMuslim/sa_dash_vmx/MNCMuslim.mpd",
+        "category": "RELIGION",
+        "tvg": {
+            "id": "MuslimTV.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "MNC SPORTS",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/MNCSports-HD/sa_dash_vmx/MNCSports-HD.mpd",
+        "category": "SPORTS",
+        "tvg": {
+            "id": "MNCSports.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "LIFE",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/Life/sa_dash_vmx/Life.mpd",
+        "category": "RELIGION",
+        "tvg": {
+            "id": "Life.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "MNC SPORTS 3",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/MNCSports-HD3/sa_dash_vmx/MNCSports3-HD.mpd",
+        "category": "SPORTS",
+        "tvg": {
+            "id": "MNCSports3.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "LIFESTYLE & FASHION",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/LifeStyleFashion/sa_dash_vmx/LifeStyleFashion.mpd",
+        "category": "LIFESTYLE",
+        "tvg": {
+            "id": "Lifestyle&Fashion.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "TVMU",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/TVMuhammadiyah/sa_dash_vmx/TVMuhammadiyah.mpd",
+        "category": "RELIGION",
+        "tvg": {
+            "id": "TVMu.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "TV9",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/TV9/sa_dash_vmx/TV9.mpd",
+        "category": "RELIGION",
+        "tvg": {
+            "id": "TV9.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "REFORMED 21",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/Reformed21/sa_dash_vmx/Reformed21.mpd",
+        "category": "RELIGION",
+        "tvg": {
+            "id": "Reformed21.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "EWTN",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/EWTN/sa_dash_vmx/EWTN.mpd",
+        "category": "RELIGION",
+        "tvg": {
+            "id": "EWTN.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "ASIAN FOOD NETWORK",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/AFN-HD/sa_dash_vmx/AFN-HD.mpd",
+        "category": "LIFESTYLE",
+        "tvg": {
+            "id": "AsianFoodNetwork.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "TLC",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/TLC/sa_dash_vmx/TLC.mpd",
+        "category": "LIFESTYLE",
+        "tvg": {
+            "id": "TLC.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "INFOTAINMENT",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/MNCInfotainment/sa_dash_vmx/MNCInfotainment.mpd",
+        "category": "LIFESTYLE",
+        "tvg": {
+            "id": "Infotainment.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "MNC SHOP",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/MNCShop/sa_dash_vmx/MNCShop.mpd",
+        "category": "LIFESTYLE",
+        "tvg": {
+            "id": "",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "MNC SHOP SMART",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/MNCShopSmart/sa_dash_vmx/MNCShopSmart.mpd",
+        "category": "LIFESTYLE",
+        "tvg": {
+            "id": "",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "HGTV",
+        "logo": "",
+        "url": "https://nyanv-live-cdn.mncnow.id/live/eds/HGTV/sa_dash_vmx/HGTV.mpd",
+        "category": "LIFESTYLE",
+        "tvg": {
+            "id": "",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "SUARGO FM",
+        "logo": "",
+        "url": "http://suargofm.onlivestreaming.net:10090/;stream.nsv",
+        "category": "RADIO",
+        "tvg": {
+            "id": "",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "CNN INDONESIA",
+        "logo": "",
+        "url": "https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_b384000_sleng.m3u8",
+        "category": "LOKAL",
+        "tvg": {
+            "id": "",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    },
+    {
+        "name": "IMC",
+        "logo": "",
+        "url": "https://anv-livechannel-cdn.mncnow.id/live/eds/IndonesiaMovieChannels-HD/sa_dash_vmx/IndonesiaMovieChannels-HD.mpd",
+        "category": "MOVIES",
+        "tvg": {
+            "id": "IMC.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "GALAXY",
+        "logo": "",
+        "url": "https://anv-livechannel-cdn.mncnow.id/live/eds/Galaxy-HD/sa_dash_vmx/Galaxy-HD.mpd",
+        "category": "MOVIES",
+        "tvg": {
+            "id": "Galaxy.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "GALAXY PREMIUM",
+        "logo": "",
+        "url": "https://anv-livechannel-cdn.mncnow.id/live/eds/Galaxy-HD/sa_dash_vmx/Galaxy-HD.mpd",
+        "category": "MOVIES",
+        "tvg": {
+            "id": "GalaxyPremium.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "TATV",
+        "logo": "",
+        "url": "https://v2.siar.us/tatv/live.sdp/chunks.m3u8",
+        "category": "LOKAL",
+        "tvg": {
+            "id": "",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "CINEMAX",
+        "logo": "",
+        "url": "https://anv-livechannel-cdn.mncnow.id/live/eds/CinemaxHD2/sa_dash_vmx/CinemaxHD2.mpd",
+        "category": "MOVIES",
+        "tvg": {
+            "id": "CINEMAX.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "ALTOSTV 030223",
+        "logo": "",
+        "url": "https://www.dropbox.com/s/x1w0ph91zkpov55/20210824_540p.mp4?raw=1",
+        "category": null,
+        "tvg": {
+            "id": "",
+            "name": "INFO ALTOSTV",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    },
+    {
+        "name": "ALTOSMUSIC",
+        "logo": "",
+        "url": "https://www.dropbox.com/s/q40gc5oawzsvutj/Tak%20berjudul%2070_720p.mp4?raw=1",
+        "category": "MUSIC",
+        "tvg": {
+            "id": "",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    },
+    {
+        "name": "INDIKA FM",
+        "logo": "",
+        "url": "https://s2.radio.co/sf58a82d7d/listen",
+        "category": "RADIO",
+        "tvg": {
+            "id": "",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "BTV HD",
+        "logo": "",
+        "url": "https://b1news.beritasatumedia.com/Beritasatu/B1News_1280x720.m3u8",
+        "category": "LOKAL",
+        "tvg": {
+            "id": "BeritaSatu.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    },
+    {
+        "name": "MAGNA CHANNEL",
+        "logo": "",
+        "url": "https://edge.medcom.id/live-edge/smil:magna.smil/chunklist_w1544941124_b878000_sleng.m3u8",
+        "category": "LOKAL",
+        "tvg": {
+            "id": "",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    },
+    {
+        "name": "INDOSIAR",
+        "logo": "",
+        "url": "http://210.210.155.35/qwr9ew/s/s04/01.m3u8",
+        "category": "LOKAL",
+        "tvg": {
+            "id": "Indosiar.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "SCTV",
+        "logo": "",
+        "url": "http://210.210.155.35/qwr9ew/s/s03/01.m3u8",
+        "category": "LOKAL",
+        "tvg": {
+            "id": "SCTV.Id",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "TVRI 3",
+        "logo": "",
+        "url": "http://118.97.50.107/Content/HLS/Live/Channel(TVRI3)/Stream(02)/index.m3u8",
+        "category": "LOKAL",
+        "tvg": {
+            "id": "",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "ADITV",
+        "logo": "",
+        "url": "http://118.97.50.107/Content/HLS/Live/Channel(TVRI3)/Stream(02)/index.m3u8",
+        "category": "LOKAL",
+        "tvg": {
+            "id": "",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "EGG NETWORK",
+        "logo": "",
+        "url": "http://210.210.155.37/uq2663/h/h22/index.m3u8",
+        "category": "ENTERTAINMENT",
+        "tvg": {
+            "id": "",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "PRAMBORS",
+        "logo": "",
+        "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/PRAMBORS_FMAAC.aac?dist=altostv",
+        "category": "RADIO",
+        "tvg": {
+            "id": "",
+            "name": null,
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    }
+]
