@@ -1,4 +1,5 @@
-import subprocess, json,os,from pathlib import Path
+import subprocess, json,os
+from pathlib import Path
 
 
 print(f"Getting Channel List")
