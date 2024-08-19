@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python: ["3.9", "3.10", "3.11", "3.12"]
+        python: ["3.12"]
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -35,10 +35,13 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get -y install python3-pip python3 git neofetch
+          python -m pip install --upgrade pip
           neofetch
           git clone https://github.com/akmalharith/epg-grabber ~/epg_grabber
           echo ::add-path::$HOME/.local/bin
-          sudo pip install git+https://github.com/akmalharith/epg-grabber.git
+
+      - name: Install tox and any other packages
+        run: pip install git+https://github.com/akmalharith/epg-grabber.git
           
       - name: Start grabbing EPG
         run: |
