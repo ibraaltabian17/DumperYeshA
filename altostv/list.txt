@@ -16,7 +16,6 @@ visionplus;FMN.Id
 visionplus;BabyTV.Id
 visionplus;KidsTV.Id
 visionplus;Nick.Id
-visionplus;NationalGeographic.Id
 visionplus;CNBC.Id
 visionplus;Life.Id
 visionplus;HITS.Id
