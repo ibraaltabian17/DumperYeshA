@@ -53,6 +53,7 @@ jobs:
         run: |
           rm -rf ~/Dump-epg
           mkdir ~/Dump-epg
+          cd ~/Dump-epg
           cp altostv/tv.xml .
           git config --global user.name "AltosTVRBot"
           git config --global user.email "TestBot@example.org"
