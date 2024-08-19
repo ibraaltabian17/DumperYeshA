@@ -34,7 +34,7 @@ jobs:
           
       - name: Start grabbing EPG
         run: |
-          python3 -m pip install git+https://github.com/akmalharith/epg-grabber.git
+          sudo pip install git+https://github.com/akmalharith/epg-grabber.git
           cd altostv
           python3 ambilepg.py
           python3 gantiidepg.py
