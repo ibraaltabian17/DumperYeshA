@@ -40,7 +40,7 @@ jobs:
           git clone https://github.com/akmalharith/epg-grabber ~/epg_grabber
           echo ::add-path::$HOME/.local/bin
 
-      - name: Install tox and any other packages
+      - name: Install EPG GRABBER
         run: pip install git+https://github.com/akmalharith/epg-grabber.git
           
       - name: Start grabbing EPG
