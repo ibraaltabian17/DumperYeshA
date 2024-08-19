@@ -1,10 +1,10 @@
-import subprocess, json,os
+import subprocess, json,os,from pathlib import Path
 
 
 print(f"Getting Channel List")
 # Define the command to run
 namuser = os.path.expanduser("~/.python/current/bin/py-epg-cli")
-command = [namuser, "--show", "visionplus_id"]
+command = ['python3', '-m', 'py-epg-cli', "--show", "visionplus_id"]
 
 # Run the command and capture the output
 result = subprocess.run(command, capture_output=True, text=True)
@@ -45,4 +45,4 @@ process_channels(input_file, output_file)
 
 print(f"Processed data has been saved to {output_file}")
 
-os.system('~/.python/current/bin/py-epg-cli local --file config.json --output apa.xml --workers 2 --days 7')
+os.system('python3 -m py-epg-cli local --file config.json --output apa.xml --workers 2 --days 7')
