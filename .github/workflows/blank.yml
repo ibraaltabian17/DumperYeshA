@@ -51,6 +51,7 @@ jobs:
           
       - name: Push xml
         run: |
+          rm -rf ~/Dump-epg
           mkdir ~/Dump-epg
           cp altostv/tv.xml .
           git config --global user.name "AltosTVRBot"
