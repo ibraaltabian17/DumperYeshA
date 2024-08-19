@@ -52,7 +52,7 @@ jobs:
       - name: Push xml
         run: |
           mkdir ~/Dump-epg
-          cp tv.xml .
+          cp altostv/tv.xml .
           git config --global user.name "AltosTVRBot"
           git config --global user.email "TestBot@example.org"
           git config --global user.password "${{ secrets.PA_TOKEN }}"
