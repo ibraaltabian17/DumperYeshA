@@ -58,7 +58,7 @@ jobs:
           git config --global user.email "TestBot@example.org"
           git config --global user.password "${{ secrets.PA_TOKEN }}"
           git init
-          git add *
+          git add .
           git commit -m "Automatically Update EPG && Playlist"
           git branch -M dump-epg
           git remote add origin  https://ibraaltabian17:${{ secrets.PA_TOKEN }}@github.com/ibraaltabian17/DumperYeshA.git
