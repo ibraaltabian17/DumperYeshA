@@ -35,6 +35,7 @@ jobs:
       - name: Start grabbing EPG
         run: |
           cd altostv
+          py-epg-cli --show visionplus_id > channels.json
           python3 ambilepg.py
           python3 gantiidepg.py
           
