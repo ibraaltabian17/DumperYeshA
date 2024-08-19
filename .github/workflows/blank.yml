@@ -29,35 +29,19 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get -y install python3-pip git neofetch
-          git clone https://github.com/akmalharith/epg-grabber.git ~/epg-grabber -b v0.3.0
-          cd ~/epg-grabber
-          pip3 install -r requirements.txt
-          pip3 install m3u-parser
-          neofetch
-          mkdir ~/Dump-epg
+          pip install git+https://github.com/akmalharith/epg-grabber.git@v0.4.10
           
       - name: Start grabbing EPG
         run: |
-          export CONFIG_URL=https://raw.githubusercontent.com/ibraaltabian17/DumperYeshA/main/altostv/list.txt
-          export CONFIG_NAME=AltosTipi
-          export EPG_DAYS=7
-          cd ~/epg-grabber/epg_grabber
-          python3 -u app.py
-          cd ~/epg-grabber/epg_grabber
-      
-      - name: Start Converting M3U8 to Json
-        run: |
-          mkdir ~/m3uparser
-          cd ~/m3uparser
-          wget https://raw.githubusercontent.com/ibraaltabian17/DumperYeshA/main/altostv/m3utojson.py
-          python3 m3utojson.py
+          cd altostv
+          python3 ambilepg.py
+          python3 gantiidepg.py
           
       - name: Push xml
         run: |
-          cd ~/Dump-epg
-          cp ~/epg-grabber/epg_grabber/tv.xml .
-          cp ~/m3uparser/altosjson.json .
-          git config --global user.name "AutoBot"
+          mkdir ~/Dump-epg
+          cp tv.xml .
+          git config --global user.name "AltosTVRBot"
           git config --global user.email "TestBot@example.org"
           git config --global user.password "${{ secrets.PA_TOKEN }}"
           git init
