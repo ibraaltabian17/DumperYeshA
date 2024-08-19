@@ -3,7 +3,7 @@ import subprocess, json,os
 
 print(f"Getting Channel List")
 # Define the command to run
-command = ["py-epg-cli", "--show", "visionplus_id"]
+command = ["python3", "~/epg_grabber/epg_grabber/cli.py", "--show", "visionplus_id"]
 
 # Run the command and capture the output
 result = subprocess.run(command, capture_output=True, text=True)
@@ -44,4 +44,4 @@ process_channels(input_file, output_file)
 
 print(f"Processed data has been saved to {output_file}")
 
-os.system('py-epg-cli local --file config.json --output apa.xml --workers 2 --days 7')
+os.system('python3 ~/epg_grabber/epg_grabber/cli.py local --file config.json --output apa.xml --workers 2 --days 7')
