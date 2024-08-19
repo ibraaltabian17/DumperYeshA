@@ -3,8 +3,8 @@ import subprocess, json,os
 
 print(f"Getting Channel List")
 # Define the command to run
-as = os.path.expanduser("~/epg_grabber/epg_grabber/cli.py")
-command = ["python3", as, "--show", "visionplus_id"]
+namuser = os.path.expanduser("~/epg_grabber/epg_grabber/cli.py")
+command = ["python3", namuser, "--show", "visionplus_id"]
 
 # Run the command and capture the output
 result = subprocess.run(command, capture_output=True, text=True)

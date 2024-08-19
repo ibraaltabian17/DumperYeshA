@@ -30,6 +30,7 @@ jobs:
           sudo apt-get update
           sudo apt-get -y install python3-pip python3 git neofetch
           neofetch
+          pip install git+https://github.com/akmalharith/epg-grabber.git
           git clone https://github.com/akmalharith/epg-grabber ~/epg_grabber
           
       - name: Start grabbing EPG
