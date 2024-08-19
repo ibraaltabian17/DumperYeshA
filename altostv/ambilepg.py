@@ -46,4 +46,4 @@ process_channels(input_file, output_file)
 
 print(f"Processed data has been saved to {output_file}")
 
-os.system('py-epg-cli local --file config.json --output apa.xml --workers 2 --days 7')
+os.system('py-epg-cli local --file config.json --output apa.xml --workers 4 --days 7')
