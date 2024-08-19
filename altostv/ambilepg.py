@@ -2,6 +2,20 @@ import subprocess, json,os
 
 
 print(f"Getting Channel List")
+# Define the command to run
+command = ["py-epg-cli", "--show", "visionplus_id"]
+
+# Run the command and capture the output
+result = subprocess.run(command, capture_output=True, text=True)
+
+# Save the output to a text file
+with open("channels.json", "w") as file:
+    file.write(result.stdout)
+
+# Optionally, check for errors
+if result.stderr:
+    print("Error:", result.stderr)
+
 print(f"extracting channel IDs and format the output")
 # Function to extract channel IDs and format the output
 def process_channels(input_file, output_file):
