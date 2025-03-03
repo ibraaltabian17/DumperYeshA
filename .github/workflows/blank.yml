@@ -31,52 +31,52 @@ jobs:
         run: |
           cd ~/epg
           # Cubmu channels (Indonesian and English)
-          npm run channels:parse -- --config=sites/cubmu.com/cubmu.com.config.js --output=sites/cubmu.com/cubmu.com_id.channels.xml --set lang=id > /dev/null
-          npm run channels:parse -- --config=sites/cubmu.com/cubmu.com.config.js --output=sites/cubmu.com/cubmu.com_en.channels.xml --set lang=en > /dev/null
-          echo "Cubmu Channels is up to date."
+          npm run channels:parse -- --config=sites/cubmu.com/cubmu.com.config.js --output=sites/cubmu.com/cubmu.com_id.channels.xml --set lang=id > /dev/null || echo "Error parsing Cubmu Indonesian channels, skipping."
+          npm run channels:parse -- --config=sites/cubmu.com/cubmu.com.config.js --output=sites/cubmu.com/cubmu.com_en.channels.xml --set lang=en > /dev/null || echo "Error parsing Cubmu English channels, skipping."
+          echo "Cubmu Channels processing completed."
           
-          npm run channels:parse -- --config=sites/dens.tv/dens.tv.config.js --output=sites/dens.tv/dens.tv.channels.xml > /dev/null
-          echo "Dens Channels is up to date."
+          npm run channels:parse -- --config=sites/dens.tv/dens.tv.config.js --output=sites/dens.tv/dens.tv.channels.xml > /dev/null || echo "Error parsing Dens channels, skipping."
+          echo "Dens Channels processing completed."
           
-          npm run channels:parse -- --config=sites/firstmedia.com/firstmedia.com.config.js --output=sites/firstmedia.com/firstmedia.com.channels.xml > /dev/null
-          echo "Firstmedia Channels is up to date."
+          npm run channels:parse -- --config=sites/firstmedia.com/firstmedia.com.config.js --output=sites/firstmedia.com/firstmedia.com.channels.xml > /dev/null || echo "Error parsing Firstmedia channels, skipping."
+          echo "Firstmedia Channels processing completed."
           
-          npm run channels:parse -- --config=sites/indihometv.com/indihometv.com.config.js --output=sites/indihometv.com/indihometv.com.channels.xml > /dev/null
-          echo "Indihome Channels is up to date."
+          npm run channels:parse -- --config=sites/indihometv.com/indihometv.com.config.js --output=sites/indihometv.com/indihometv.com.channels.xml > /dev/null || echo "Error parsing Indihome channels, skipping."
+          echo "Indihome Channels processing completed."
           
-          npm run channels:parse -- --config=sites/mncvision.id/mncvision.id.config.js --output=sites/mncvision.id/mncvision.id_id.channels.xml --set lang=id > /dev/null
-          npm run channels:parse -- --config=sites/mncvision.id/mncvision.id.config.js --output=sites/mncvision.id/mncvision.id_en.channels.xml --set lang=en > /dev/null
-          echo "MNC Vision Channels is up to date."
+          npm run channels:parse -- --config=sites/mncvision.id/mncvision.id.config.js --output=sites/mncvision.id/mncvision.id_id.channels.xml --set lang=id > /dev/null || echo "Error parsing MNC Vision Indonesian channels, skipping."
+          npm run channels:parse -- --config=sites/mncvision.id/mncvision.id.config.js --output=sites/mncvision.id/mncvision.id_en.channels.xml --set lang=en > /dev/null || echo "Error parsing MNC Vision English channels, skipping."
+          echo "MNC Vision Channels processing completed."
           
-          npm run channels:parse -- --config=sites/vidio.com/vidio.com.config.js --output=sites/vidio.com/vidio.com.channels.xml > /dev/null
-          echo "Vidio Channels is up to date."
+          npm run channels:parse -- --config=sites/vidio.com/vidio.com.config.js --output=sites/vidio.com/vidio.com.channels.xml > /dev/null || echo "Error parsing Vidio channels, skipping."
+          echo "Vidio Channels processing completed."
           
-          npm run channels:parse -- --config=sites/visionplus.id/visionplus.id.config.js --output=sites/visionplus.id/visionplus.id.channels.xml > /dev/null
-          echo "Visionplus Channels is up to date."
+          npm run channels:parse -- --config=sites/visionplus.id/visionplus.id.config.js --output=sites/visionplus.id/visionplus.id.channels.xml > /dev/null || echo "Error parsing Visionplus channels, skipping."
+          echo "Visionplus Channels processing completed."
       
       - name: Update EPG
         run: |
           cd ~/epg
-          npm run grab -- --site=cubmu.com --output=cubmu.xml --maxConnections=10 --lang id > /dev/null
-          echo "Cubmu EPG is up to date."
+          npm run grab -- --site=cubmu.com --output=cubmu.xml --maxConnections=10 --lang id > /dev/null || echo "Error grabbing Cubmu EPG, skipping."
+          echo "Cubmu EPG processed."
           
-          npm run grab -- --site=dens.tv --output=dens.xml --maxConnections=10 > /dev/null
-          echo "Dens EPG is up to date."
+          npm run grab -- --site=dens.tv --output=dens.xml --maxConnections=10 > /dev/null || echo "Error grabbing Dens EPG, skipping."
+          echo "Dens EPG processed."
           
-          npm run grab -- --site=firstmedia.com --output=firstmedia.xml --maxConnections=10 > /dev/null
-          echo "Firstmedia EPG is up to date."
+          npm run grab -- --site=firstmedia.com --output=firstmedia.xml --maxConnections=10 > /dev/null || echo "Error grabbing Firstmedia EPG, skipping."
+          echo "Firstmedia EPG processed."
           
-          npm run grab -- --site=indihometv.com --output=indihome.xml --maxConnections=10 > /dev/null
-          echo "Indihome EPG is up to date."
+          npm run grab -- --site=indihometv.com --output=indihome.xml --maxConnections=10 > /dev/null || echo "Error grabbing Indihome EPG, skipping."
+          echo "Indihome EPG processed."
           
-          npm run grab -- --site=mncvision.id --output=mncvision.xml --maxConnections=10 > /dev/null
-          echo "MNC Vision EPG is up to date."
+          npm run grab -- --site=mncvision.id --output=mncvision.xml --maxConnections=10 > /dev/null || echo "Error grabbing MNC Vision EPG, skipping."
+          echo "MNC Vision EPG processed."
           
-          npm run grab -- --site=vidio.com --output=vidio.xml --maxConnections=10 > /dev/null
-          echo "Vidio EPG is up to date."
+          npm run grab -- --site=vidio.com --output=vidio.xml --maxConnections=10 > /dev/null || echo "Error grabbing Vidio EPG, skipping."
+          echo "Vidio EPG processed."
           
-          npm run grab -- --site=visionplus.id --output=visionplus.xml --maxConnections=10 > /dev/null
-          echo "Visionplus EPG is up to date."
+          npm run grab -- --site=visionplus.id --output=visionplus.xml --maxConnections=10 > /dev/null || echo "Error grabbing Visionplus EPG, skipping."
+          echo "Visionplus EPG processed."
       
       - name: Merge XML Files and Remove Duplicates
         run: |
@@ -85,7 +85,7 @@ jobs:
           import xml.etree.ElementTree as ET
           import os
 
-          # List the individual XML files to merge
+          # List of XML files to merge
           files = ['cubmu.xml', 'dens.xml', 'firstmedia.xml', 'indihome.xml', 'mncvision.xml', 'vidio.xml', 'visionplus.xml']
           merged_root = ET.Element("tv")
           channels = {}
@@ -93,11 +93,12 @@ jobs:
 
           for filename in files:
               if not os.path.exists(filename):
+                  print(f"{filename} not found, skipping.")
                   continue
               try:
                   tree = ET.parse(filename)
               except ET.ParseError as e:
-                  print(f"Error parsing {filename}: {e}")
+                  print(f"Error parsing {filename}: {e}. Skipping.")
                   continue
               root = tree.getroot()
               for child in root:
