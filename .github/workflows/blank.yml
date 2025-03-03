@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node: ["16.x"]
+        node: ["lts/*"]
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
@@ -31,8 +31,8 @@ jobs:
         run: |
           cd ~/epg
           # Cubmu channels (Indonesian and English)
-          npm run channels:parse -- --config=sites/cubmu.com/cubmu.com.config.js --output=sites/cubmu.com/cubmu.com_id.channels.xml --set=lang:id > /dev/null
-          npm run channels:parse -- --config=sites/cubmu.com/cubmu.com.config.js --output=sites/cubmu.com/cubmu.com_en.channels.xml --set=lang:en > /dev/null
+          npm run channels:parse -- --config=sites/cubmu.com/cubmu.com.config.js --output=sites/cubmu.com/cubmu.com_id.channels.xml --set lang=id > /dev/null
+          npm run channels:parse -- --config=sites/cubmu.com/cubmu.com.config.js --output=sites/cubmu.com/cubmu.com_en.channels.xml --set lang=en > /dev/null
           echo "Cubmu Channels is up to date."
           
           npm run channels:parse -- --config=sites/dens.tv/dens.tv.config.js --output=sites/dens.tv/dens.tv.channels.xml > /dev/null
@@ -44,8 +44,8 @@ jobs:
           npm run channels:parse -- --config=sites/indihometv.com/indihometv.com.config.js --output=sites/indihometv.com/indihometv.com.channels.xml > /dev/null
           echo "Indihome Channels is up to date."
           
-          npm run channels:parse -- --config=sites/mncvision.id/mncvision.id.config.js --output=sites/mncvision.id/mncvision.id_id.channels.xml --set=lang:id > /dev/null
-          npm run channels:parse -- --config=sites/mncvision.id/mncvision.id.config.js --output=sites/mncvision.id/mncvision.id_en.channels.xml --set=lang:en > /dev/null
+          npm run channels:parse -- --config=sites/mncvision.id/mncvision.id.config.js --output=sites/mncvision.id/mncvision.id_id.channels.xml --set lang=id > /dev/null
+          npm run channels:parse -- --config=sites/mncvision.id/mncvision.id.config.js --output=sites/mncvision.id/mncvision.id_en.channels.xml --set lang=en > /dev/null
           echo "MNC Vision Channels is up to date."
           
           npm run channels:parse -- --config=sites/vidio.com/vidio.com.config.js --output=sites/vidio.com/vidio.com.channels.xml > /dev/null
@@ -57,7 +57,7 @@ jobs:
       - name: Update EPG
         run: |
           cd ~/epg
-          npm run grab -- --site=cubmu.com --output=cubmu.xml --maxConnections=10 --lang:id > /dev/null
+          npm run grab -- --site=cubmu.com --output=cubmu.xml --maxConnections=10 --lang id > /dev/null
           echo "Cubmu EPG is up to date."
           
           npm run grab -- --site=dens.tv --output=dens.xml --maxConnections=10 > /dev/null
@@ -69,7 +69,7 @@ jobs:
           npm run grab -- --site=indihometv.com --output=indihome.xml --maxConnections=10 > /dev/null
           echo "Indihome EPG is up to date."
           
-          npm run grab -- --site=mncvision.id --output=mncvision.xml --maxConnections=10 --lang:id > /dev/null
+          npm run grab -- --site=mncvision.id --output=mncvision.xml --maxConnections=10 > /dev/null
           echo "MNC Vision EPG is up to date."
           
           npm run grab -- --site=vidio.com --output=vidio.xml --maxConnections=10 > /dev/null
