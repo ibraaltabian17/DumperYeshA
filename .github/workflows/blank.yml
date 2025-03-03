@@ -1,68 +1,138 @@
-# This is a basic workflow to help you get started with Actions
+name: EPG & Channels Update
 
-name: EPG & Playlist.json
-
-# Controls when the workflow will run
 on:
   schedule:
-  # Runs "at minute 55 past every hour" (see https://crontab.guru)
-  - cron: '0 0 * * *'
-
-  # Allows you to run this workflow manually from the Actions tab
+    - cron: '0 0 * * *'
   workflow_dispatch:
   push:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python: ["3.12"]
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
+        node: ["16.x"]
     steps:
-      - uses: actions/checkout@v3
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          python-version: ${{ matrix.python }}
-
-      # Runs a set of commands using the runners shell
-      - name: Run Build Envsetup
+          node-version: ${{ matrix.node }}
+      
+      - name: Clone EPG Repository and Install Dependencies
         run: |
-          sudo apt-get update
-          sudo apt-get -y install python3-pip python3 git neofetch
-          python -m pip install --upgrade pip
-          neofetch
-          git clone https://github.com/akmalharith/epg-grabber ~/epg_grabber
-          echo ::add-path::$HOME/.local/bin
-
-      - name: Install EPG GRABBER
-        run: pip install git+https://github.com/akmalharith/epg-grabber.git
+          git clone https://github.com/iptv-org/epg.git ~/epg
+          cd ~/epg
+          npm install
+      
+      - name: Update Channels
+        run: |
+          cd ~/epg
+          # Cubmu channels (Indonesian and English)
+          npm run channels:parse -- --config=sites/cubmu.com/cubmu.com.config.js --output=sites/cubmu.com/cubmu.com_id.channels.xml --set=lang:id > /dev/null
+          npm run channels:parse -- --config=sites/cubmu.com/cubmu.com.config.js --output=sites/cubmu.com/cubmu.com_en.channels.xml --set=lang:en > /dev/null
+          echo "Cubmu Channels is up to date."
           
-      - name: Start grabbing EPG
-        run: |
-          cd altostv
-          python3 ambilepg.py
-          python3 gantiidepg.py
+          npm run channels:parse -- --config=sites/dens.tv/dens.tv.config.js --output=sites/dens.tv/dens.tv.channels.xml > /dev/null
+          echo "Dens Channels is up to date."
           
-      - name: Push xml
+          npm run channels:parse -- --config=sites/firstmedia.com/firstmedia.com.config.js --output=sites/firstmedia.com/firstmedia.com.channels.xml > /dev/null
+          echo "Firstmedia Channels is up to date."
+          
+          npm run channels:parse -- --config=sites/indihometv.com/indihometv.com.config.js --output=sites/indihometv.com/indihometv.com.channels.xml > /dev/null
+          echo "Indihome Channels is up to date."
+          
+          npm run channels:parse -- --config=sites/mncvision.id/mncvision.id.config.js --output=sites/mncvision.id/mncvision.id_id.channels.xml --set=lang:id > /dev/null
+          npm run channels:parse -- --config=sites/mncvision.id/mncvision.id.config.js --output=sites/mncvision.id/mncvision.id_en.channels.xml --set=lang:en > /dev/null
+          echo "MNC Vision Channels is up to date."
+          
+          npm run channels:parse -- --config=sites/vidio.com/vidio.com.config.js --output=sites/vidio.com/vidio.com.channels.xml > /dev/null
+          echo "Vidio Channels is up to date."
+          
+          npm run channels:parse -- --config=sites/visionplus.id/visionplus.id.config.js --output=sites/visionplus.id/visionplus.id.channels.xml > /dev/null
+          echo "Visionplus Channels is up to date."
+      
+      - name: Update EPG
         run: |
-          mkdir ~/Dump-epg
-          cp altostv/tv.xml ~/Dump-epg
-          cd ~/Dump-epg
+          cd ~/epg
+          npm run grab -- --site=cubmu.com --output=cubmu.xml --maxConnections=10 --lang:id > /dev/null
+          echo "Cubmu EPG is up to date."
+          
+          npm run grab -- --site=dens.tv --output=dens.xml --maxConnections=10 > /dev/null
+          echo "Dens EPG is up to date."
+          
+          npm run grab -- --site=firstmedia.com --output=firstmedia.xml --maxConnections=10 > /dev/null
+          echo "Firstmedia EPG is up to date."
+          
+          npm run grab -- --site=indihometv.com --output=indihome.xml --maxConnections=10 > /dev/null
+          echo "Indihome EPG is up to date."
+          
+          npm run grab -- --site=mncvision.id --output=mncvision.xml --maxConnections=10 --lang:id > /dev/null
+          echo "MNC Vision EPG is up to date."
+          
+          npm run grab -- --site=vidio.com --output=vidio.xml --maxConnections=10 > /dev/null
+          echo "Vidio EPG is up to date."
+          
+          npm run grab -- --site=visionplus.id --output=visionplus.xml --maxConnections=10 > /dev/null
+          echo "Visionplus EPG is up to date."
+      
+      - name: Merge XML Files and Remove Duplicates
+        run: |
+          cd ~/epg
+          python3 - <<'EOF'
+          import xml.etree.ElementTree as ET
+          import os
+
+          # List the individual XML files to merge
+          files = ['cubmu.xml', 'dens.xml', 'firstmedia.xml', 'indihome.xml', 'mncvision.xml', 'vidio.xml', 'visionplus.xml']
+          merged_root = ET.Element("tv")
+          channels = {}
+          programmes = {}
+
+          for filename in files:
+              if not os.path.exists(filename):
+                  continue
+              try:
+                  tree = ET.parse(filename)
+              except ET.ParseError as e:
+                  print(f"Error parsing {filename}: {e}")
+                  continue
+              root = tree.getroot()
+              for child in root:
+                  if child.tag == 'channel':
+                      channel_id = child.get('id')
+                      if channel_id and channel_id not in channels:
+                          channels[channel_id] = child
+                  elif child.tag == 'programme':
+                      key = (child.get('start'), child.get('stop'), child.get('channel'))
+                      if key not in programmes:
+                          programmes[key] = child
+
+          # Append unique channels and programmes to the merged root
+          for channel in channels.values():
+              merged_root.append(channel)
+          for programme in programmes.values():
+              merged_root.append(programme)
+
+          # Write the merged XML to tv.xml with an XML declaration
+          tree = ET.ElementTree(merged_root)
+          tree.write("tv.xml", encoding='utf-8', xml_declaration=True)
+          print("Merged XML files into tv.xml with duplicates removed.")
+          EOF
+      
+      - name: Push tv.xml
+        run: |
+          cd ~/epg
+          mkdir -p Dump-epg
+          cp tv.xml Dump-epg/
+          cd Dump-epg
           git config --global user.name "AltosTVRBot"
           git config --global user.email "TestBot@example.org"
-          git config --global user.password "${{ secrets.PA_TOKEN }}"
           git init
           git add .
-          git commit -m "Automatically Update EPG && Playlist"
+          git commit -m "Automatically Update merged tv.xml"
           git branch -M dump-epg
-          git remote add origin  https://ibraaltabian17:${{ secrets.PA_TOKEN }}@github.com/ibraaltabian17/DumperYeshA.git
+          git remote add origin https://ibraaltabian17:${{ secrets.PA_TOKEN }}@github.com/ibraaltabian17/DumperYeshA.git
           git push -u origin dump-epg -f
-
-          
-          
